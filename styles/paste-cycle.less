@@ -6,7 +6,7 @@
   lighten(@syntax-selection-color, 3%)
 );
 
-@keyframes clip-history-pasted-flash {
+@keyframes paste-cycle-pasted-flash {
   from {
     background-color: @flash-background-color;
   }
@@ -15,8 +15,8 @@
   }
 }
 
-atom-text-editor.editor .clip-history-pasted .region {
-  animation-name: clip-history-pasted-flash;
+atom-text-editor.editor .paste-cycle-pasted .region {
+  animation-name: paste-cycle-pasted-flash;
   animation-iteration-count: 1;
   animation-duration: 1s;
 }
