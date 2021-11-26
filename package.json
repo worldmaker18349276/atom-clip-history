@@ -1,7 +1,7 @@
 {
   "name": "paste-cycle",
   "main": "./lib/paste-cycle",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "description": "Paste from clipboard history like emacs' kill-ring",
   "keywords": [],
   "repository": "https://github.com/worldmaker18349276/atom-paste-cycle",
