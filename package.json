@@ -23,17 +23,11 @@
       "default": true,
       "description": "Flash when pasted"
     },
-    "adjustIndent": {
-      "order": 2,
-      "type": "boolean",
-      "default": true,
-      "description": "Keep layout of pasted text by adjusting indentation."
-    },
     "doNormalPasteWhenMultipleCursors": {
       "order": 3,
       "type": "boolean",
       "default": true,
-      "description": "Keep layout of pasted text by adjusting indentation."
+      "description": "Do normal paste when multiple cursors"
     }
   },
   "devDependencies": {
