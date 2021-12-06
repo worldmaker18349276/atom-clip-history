@@ -16,7 +16,8 @@ Paste from clipboard history like emacs' kill-ring
 * `paste-cycle:paste`: Paste. Continuous execution without moving cursor pops older entry.
 * `paste-cycle:paste-newer`: Paste. Continuous execution without moving cursor pops newer entry.
 * `paste-cycle:paste-last`: Paste last pasted text.
-* `paste-cycle:clear`: Clear clipboard history.
+* `paste-cycle:copy-from-clipboard`: Copy the text in the clipboard into the paste cycle.
+* `paste-cycle:clear`: Clear the clipboard history in the paste cycle.
 
 # Keymap
 
@@ -46,7 +47,7 @@ atom-text-editor.editor .paste-cycle-pasted .region {
 # Features
 
 * Paste old clipboard entry.
-* Auto indent on past (configured by native setting).
+* Auto indent on paste (configured by native setting).
 * Flash/select pasted area.
-* Support multiple cursor (disabled by default).
+* Support multiple cursor.
 * Easy undo the entire paste cycle.
