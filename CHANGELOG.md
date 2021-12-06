@@ -1,3 +1,20 @@
+## 1.0.0:
+
+* Rewrite paste by hacking into clipboard.
+* Remove option `doNormalPasteWhenMultipleCursors`, it always works.
+
+## 0.6.2:
+
+* This is a fork of https://github.com/t9md/atom-clip-history.
+* Refactoring.
+* Refine behavior:
+  * Now undo will revert whole paste cycle.
+  * Remove option `adjustIndent`, use native setting for adjust indent.
+  * Add option `selectPasted`.
+  * Fix consistency for `doNormalPasteWhenMultipleCursors`.
+  * Cancel the paste cycle more precisely: it will be cancelled after changing cursor position, content, and tabs.
+  * Now command `paste-last` acts like normal paste.
+
 ## 0.5.0:
 
 * Convert to JS.
