@@ -1,3 +1,6 @@
+## 1.1.0:
+* add command copy-from-clipboard.
+
 ## 1.0.0:
 
 * Rewrite paste by hacking into clipboard.
